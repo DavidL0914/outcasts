@@ -8,7 +8,7 @@ player_api = Blueprint('player_api', __name__,
                    url_prefix='/api/players')
 
 # API docs https://flask-restful.readthedocs.io/en/latest/api.html
-api = Api(player_api)
+api = Api(player_api)   
 
 class PlayerAPI:     
     class Action(Resource):
